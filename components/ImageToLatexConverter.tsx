@@ -150,6 +150,14 @@ export default function ImageToLatexConverter() {
                   >
                     llama-latex
                   </a>
+                  &{" "}
+                  <a
+                    className="font-semibold"
+                    href="https://www.together.ai/"
+                    target="_blank"
+                  >
+                    Together AI
+                  </a>
                 </p>
                 <a
                   href="https://github.com/minor/llama-latex"
