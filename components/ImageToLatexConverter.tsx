@@ -149,7 +149,7 @@ export default function ImageToLatexConverter() {
                     target="_blank"
                   >
                     llama-latex
-                  </a>
+                  </a>{" "}
                   &{" "}
                   <a
                     className="font-semibold"
