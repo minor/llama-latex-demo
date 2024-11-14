@@ -3,13 +3,7 @@
 import React, { useState, useRef, ChangeEvent, DragEvent } from "react";
 import { Upload, X, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 
 export default function ImageToLatexConverter() {
@@ -250,13 +244,15 @@ export default function ImageToLatexConverter() {
                       <span className="text-purple-600">import</span> {"{"}{" "}
                       img2latex {"}"}{" "}
                       <span className="text-purple-600">from</span>{" "}
-                      <span className="text-green-600">'llama-latex'</span>;
-                      {"\n\n"}
+                      <span className="text-green-600">
+                        &apos;llama-latex&apos;
+                      </span>
+                      ;{"\n\n"}
                       <span className="text-purple-600">const</span> latex ={" "}
                       <span className="text-purple-600">await</span> img2latex(
                       {"{\n"} filePath:{" "}
                       <span className="text-green-600">
-                        './markov_chains.jpg'
+                        &apos;./markov_chains.jpg&apos;
                       </span>
                       ,{"\n "}apiKey: process.env.TOGETHER_API_KEY {"\n}"});
                     </pre>
@@ -310,7 +306,7 @@ export default function ImageToLatexConverter() {
             >
               @nutlope
             </a>
-            's{" "}
+            &apos;s{" "}
             <a
               href="https://llamaocr.com/"
               target="_blank"
